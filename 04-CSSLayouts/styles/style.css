@@ -1,0 +1,262 @@
+* {
+  /* background-color: #999898f4; */
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #444;
+  position: relative;
+}
+
+/** Multiple Selectors styles**/
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  /* font-family: sans-serif; */
+}
+
+/** CSS Colors **/
+h1,
+h2,
+h3,
+h4 {
+  color: #1098ad;
+  margin-bottom: 30px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+nav a:link {
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+nav a:link:last-child {
+  margin-right: 0px;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+}
+
+.article-header {
+  margin-bottom: 30px;
+}
+
+.article-image {
+  margin-bottom: 30px;
+  width: 100%;
+  height: auto;
+}
+
+article {
+  margin-bottom: 30px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 50px 20px;
+  margin-bottom: 30px;
+  width: 500px;
+}
+
+/**HTML Elements Styles **/
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 22px;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+ol,
+ul {
+  margin-left: 50px;
+}
+
+li {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* footer p {
+  font-size: 16px;
+}
+
+article header p {
+  font-style: italic;
+} */
+
+/** ID Class Styles **/
+#copyright {
+  font-size: 16px;
+}
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+}
+
+.like-button {
+  position: absolute;
+  padding: 10px;
+  right: 15px;
+  bottom: 50px;
+}
+
+/** Pseudo Class Styles **/
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  color: red;
+}
+
+li:nth-child(2) {
+  color: orange;
+}
+
+li:nth-child(odd) {
+  color: blue;
+  font-style: italic;
+}
+
+li:nth-child(even) {
+  font-family: serif;
+}
+
+li:nth-last-child(2) {
+  color: palevioletred;
+}
+
+/* Anchor Elements Styling - LVHA */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #f7f7f7;
+  background-color: #1098ad;
+  text-decoration: underline #1098ad;
+}
+
+/* Pseudo Elements Styles */
+.main-header::first-letter {
+  font-style: normal;
+}
+
+.article-header h2 {
+  position: relative;
+  &::after {
+    content: "Top";
+    color: #000;
+    background-color: #eaf60c;
+    font-size: 16px;
+    padding: 3px 5px;
+    position: absolute;
+    top: 0px;
+    right: -25px;
+  }
+}
+
+p::first-line {
+  color: #61ad10;
+}
+
+h3 + p::first-line {
+  color: plum;
+}
+
+/* Float Elements */
+
+.author-img,
+.author {
+  float: left;
+}
+
+.author {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.main-header h1 {
+  float: left;
+}
+
+.main-header nav {
+  float: right;
+}
+
+.clear-float::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
+}
