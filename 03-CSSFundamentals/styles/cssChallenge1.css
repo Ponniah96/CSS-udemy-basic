@@ -152,7 +152,7 @@ body {
 }
 
 /* Float Elements Changes */
-.product-price {
+/* .product-price {
   float: left;
 }
 
@@ -162,7 +162,6 @@ body {
 }
 
 .product-price-details {
-  /* padding-top: 20px; */
   &::after {
     clear: both;
     content: "";
@@ -190,4 +189,41 @@ body {
   clear: both;
   content: "";
   display: block;
+} */
+
+/* .product-description{
+  .product-images,
+  .product-basic-details, 
+  .product-more-details{
+    float: left;
+    width: 30%;
+  }
+
+  .product-basic-details, 
+  .product-more-details{
+    padding-left: 40px;
+  }
+  &::after{
+    clear: both;
+    content: "";
+    display: block;
+  }
 }
+
+.product-price-details{
+  padding-top: 20px;
+  .product-price{
+    float: left;
+  }
+  .product-shipping{
+    float: right;
+    padding-top: 5px;
+  }
+  &::after{
+    clear: both;
+    content: "";
+    display: block;
+  }
+} */
+
+

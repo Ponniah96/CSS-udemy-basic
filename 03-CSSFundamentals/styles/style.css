@@ -223,40 +223,43 @@ h3 + p::first-line {
 
 /* Float Elements */
 
-.author-img,
-.author {
+/* .author-image, 
+.author{
   float: left;
 }
 
-.author {
-  margin-top: 10px;
-  margin-left: 15px;
+.author{
+  padding: 5px;
 }
 
-.main-header h1 {
-  float: left;
+h1{
+  float:left;
 }
 
-.main-header nav {
+nav{
   float: right;
 }
 
-.clear-float::after {
+.clear{
+  clear: both;
+}
+
+.clear-float::after{
   clear: both;
   content: "";
   display: block;
 }
 
-article {
-  width: 825px;
-  float: left;
+article{
+  float:left;
+  width: 800px;
 }
 
-aside {
-  width: 300px;
+aside{
   float: right;
+  width:300px
 }
 
-footer {
+footer{
   clear: both;
-}
+} */
