@@ -14,7 +14,7 @@
       }
       .el--3 {
         background-color: green;
-        height: 150px;
+        height: 250px;
       }
       .el--4 {
         background-color: goldenrod;
@@ -40,9 +40,117 @@
         margin: 40px;
 
         /* FLEXBOX */
-        display: flex;
+        /* display: flex;
         align-items: center;
+        justify-content: space-between; */
       }
+
+      /* Flex Box */
+      .container{
+        display: flex;
+      }
+
+      /* Align Container Veritcally - Cross Axis */
+      .container{
+        align-items: center;
+        /* align-items: baseline;
+        align-items: end;
+        align-items: normal;
+        align-items: stretch;   default      */
+      }
+
+      /* Align Container Horizontally - Main Axis */
+      .container{
+        justify-content: baseline;
+        /* justify-content: center;
+        justify-content:flex-start; default
+        justify-content: flex-end; 
+        justify-content: space-around;
+        justify-content: space-between;
+        justify-content: space-evenly; */
+      }
+
+      /* Gap between flex-items */
+      .container{
+        gap:0px;
+        /* gap: 10px;
+        gap: 40px;
+        flex-wrap: wrap; */
+      }
+
+      /* Align Individual Items - Horizontally */
+      /* .el--1{
+        align-self: auto;
+      }
+      
+      .el--2{
+        align-self:baseline;
+      }
+
+      .el--4{
+        align-self:flex-end;
+      }
+      .el--5{
+        align-self:stretch;
+      } */
+      
+      /* Order Individual Items - Horizontally */
+      /* .el--1{
+        order: 0;
+      }
+      
+      .el--2{
+        order: 1;
+      }
+
+      .el--4{
+        order: -1;
+      }
+
+      .el--5{
+        order:-2;
+      }
+      
+      .el--7{
+        order:-2;
+      } */
+
+      /* Flex Grow - Helps Flex-items to grow as per parent container width */
+      /* .el{
+        flex-grow: 0; default value
+        flex-grow: 1;
+      }
+      .el--1{
+        flex-grow: 2; If we increase value, it will take available empty space
+      }
+      .el--4{
+        flex-grow: 4;
+      } */
+      
+      /* Flex Shrink - Helps Flex-items to shrink as per parent container width */
+      /* .el{
+        flex-shrink: 1;
+        flex-shrink: 0;
+      } */
+      
+      /* Flex Basis - Sets width of flex-items */
+      /* .el{
+        flex-basis: auto;
+        flex-basis: 100px;
+      }
+      .el--1{
+        flex-basis: 200px;
+      }
+      .container{
+        flex-wrap: wrap;
+      } */
+
+      /* Flex property flex:flex-grow flex-shrink flex-basis */
+      .el{
+        flex: 0 1 auto;
+      }
+
+
     </style>
   </head>
   <body>

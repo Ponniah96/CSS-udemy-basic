@@ -223,7 +223,7 @@ h3 + p::first-line {
 
 /* Float Elements */
 
-.author-img,
+/* .author-img,
 .author {
   float: left;
 }
@@ -259,4 +259,106 @@ aside {
 
 footer {
   clear: both;
+} */
+
+
+/* FlexBox */
+/* .main-header{
+  display: flex;
+  justify-content: space-between;
+
+  h1{
+    margin-bottom: 0;
+  }
+}
+
+.author-intro-section{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  p{
+    margin-bottom: 0;
+  }
+}
+
+
+.related-post{
+  display: flex;
+  gap: 30px;
+}
+
+a.related-article{
+  color: #000;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.related-post p.related-author{
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+  color: #000;
+}
+
+.flex-row{
+  display: flex;
+  gap: 75px;
+  align-items: flex-start;
+}
+
+aside{
+  width: 300px;
+}
+
+article{
+  width: 875px;
+} */
+
+
+
+/* GridBox */
+/* Apply Grid into container */
+.container{
+  display: grid;
+}
+
+/* Want 2 columns in article, aside so give grid-template-columns2 values */
+.container{
+  grid-template-columns: 1fr 300px;
+}
+
+/* Header and footer section going to take whole row */
+.main-header{
+  grid-column: 1/3;
+}
+footer{
+  grid-column: 1/3;
+  background-color: yellow;
+}
+aside{
+  width: 300px;
+}
+
+/* Add Row-gap and column-gap */
+.main-header{
+  margin-bottom: 0;
+}
+article{
+  margin-bottom: 0;
+}
+.container{
+  column-gap: 75px;
+  row-gap: 60px;
+}
+
+/* Align article nd aside items at start unifromly */
+.container{
+  align-items: start;
+}
+
+/* To make header and nav bar alignment we still use flexbox for header */
+.main-header{
+  display: flex;
+  justify-content: space-between;
 }
