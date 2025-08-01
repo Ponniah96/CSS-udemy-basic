@@ -1,0 +1,170 @@
+/*********************/
+/* GENERAL REUSABLE COMPONENT */
+/*********************/
+
+.container{
+  /*Actual width: 1340px*/
+  max-width:120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid{
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 4.8rem;
+}
+
+.grid:not(:last-child){
+  margin-bottom: 9.6rem;
+}
+
+.grid--2-cols{
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols{
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols{
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols{
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--center-vertical{
+  align-items: center;
+}
+
+.heading-primary,
+.heading-secondary{
+  color: #333;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+}
+
+.heading-primary{
+  font-size: 5.2rem;
+  margin-bottom: 3.3rem;
+}
+
+.heading-secondary{
+  font-size: 4.4rem;
+  margin-bottom: 9.6rem;
+}
+
+.heading-teritary{
+  font-size: 3rem;
+  margin-bottom: 3.2rem;
+  color: #333;
+}
+
+.subheading{
+  color: #cf711f;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  margin-bottom: 1.6rem;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.btn,
+.btn:link,
+.btn:visited{
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  text-decoration:none;
+  border-radius: 0.8rem;
+  transition: all 0.3s;
+
+  border: none;
+  cursor: pointer;
+}
+
+
+.btn--full:link,
+.btn--full:visited{
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active{
+  background-color: #cf711f;
+}
+.btn--outline:link,
+.btn--outline:visited{
+  background-color: #fff;
+  color: #555;
+}
+
+.btn--outline:hover,
+.btn--outline:active{
+  background-color: #fdf2e9;
+  box-shadow: inset 0 0 0 3px #fff
+}
+
+.btn--form{
+  padding: 1.2rem 2.4rem;
+  align-self: flex-end;
+  font-size: 1.6rem;
+  font-weight: 500;
+  background-color: #2e1907;
+  color: #fdf2e9;
+}
+
+.btn--form:hover{
+  background-color: #fff;
+  color: #333;
+}
+
+.link:link,                 
+.link:visited{
+  font-size: 1.8rem;
+  color: #e67e22;
+  text-decoration: none;
+  transition: all 0.3s;
+  padding-bottom: 2px;
+  border-bottom: 1px solid currentColor;
+  cursor: pointer;
+}
+
+.link:hover,
+.link:active{
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+}
+
+*:focus{
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(206, 113, 31, 0.5);
+}
+
+
+
+/*********************/
+/* REUSABLE CLASS SECTION */
+/*********************/
+
+.margin-right-sm{
+  margin-right: 1.6rem !important;
+}
+
+.margin-bottom-sm{
+  margin-bottom: 1.6rem !important;
+}
+.margin-bottom-md{
+  margin-bottom: 3.2rem !important;
+}
+.margin-bottom-lg{
+  margin-bottom: 4.8rem !important;
+}
+
+.text-center{
+  text-align: center;
+}
