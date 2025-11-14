@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>First Web Page</title>
+    <link rel="stylesheet" href="../styles.css">
   </head>
-  <body>
+  <body >
     <h1>My First Webpage in Udemy Tutorial!!!</h1>
     <p>
       My Name is Ponniah Kothandaraman, I'm going to learn HTML, CSS more
@@ -30,45 +31,7 @@
       <li>Auto Save: onFocusChange</li>
       <li>Tab size: 2</li>
     </ul>
-
-    <strong>Important Video links</strong>
-    <ol>
-      <li>Video 29 - Chrome Dev Tools</li>
-      <li>Video 30 - CSS Theory 1 - Conflcits between selectors
-        <img src="img/OrderofPrecedence.png" alt="OrderofPrecedence" width="100%" height="auto">
-      </li>
-      <li>Video 31 - CSS Theory 2 - Inheritnace and universal selectors
-        <img src="img/Inheritance.png" alt="Inheritance" width="100%" height="auto">
-      </li>
-      <li>Video 33 - CSS Theory 3 - Box Models
-        <img src="img/BoxModel.png" alt="BoxModel" width="100%" height="auto">
-      </li>
-      <li>Video 38 - CSS Theory 4 - Types of Boxes
-        <img src="img/TypesofBoxes.png" alt="TypesofBoxes" width="100%" height="auto">
-      </li>
-      <li>Video 39 - CSS Theory 5 - Absolute Positioning
-        <img src="img/AbsolutePositioning.png" alt="AbsolutePositioning" width="100%" height="auto">
-      </li>
-      <li>Video 67 - Overview of web design and website peroanlities</li>
-      <li>Video 69 - Typography Basics</li>
-      <li>Video 90 - Vertically Center using Absolute Positioning
-        <img src="img/AbsolutePostioningVerticalCenter1.png" alt="AbsolutePositioning" width="100%" height="auto">
-        <img src="img/AbsolutePositioningVerticalCenter2.png" alt="AbsolutePositioning" width="100%" height="auto">
-      </li>
-      <li>Video 104 - Responsive Design Principles 
-        <img src="img/ResponsiveDesign1.png" alt="ResponsiveDesignPrinciples" width="100%" height="auto">
-        <img src="img/ResponsiveDesign2.png" alt="ResponsiveDesignPrinciples" width="100%" height="auto">
-        <img src="img/ResponsiveDesign3.png" alt="ResponsiveDesignPrinciples" width="100%" height="auto">
-      </li>
-      <li>Video 105 - max-width and Rem (Root element)
-        <img src="img/RemAndMaxWidth.png" alt="" width="100%" height="auto">
-      </li>
-      <li>Video 130 - Rules for Responsive design
-        <img src="img/ResponsiveDesign4.png" alt="" width="100%" height="auto" /> 
-      </li>
-
-    </ol>
-
+    
     <strong>HTML Concepts</strong> <a href="../02-HTMLFundamentals/index.html" target="_blank">Click here</a>
     <ul>
       <li>Create Empty HTML document</li>
@@ -105,24 +68,32 @@
         <img src="img/FloatLayout.png" alt="FloatLayout" width="100%" height="auto">
       </li>
       <li>Flex Layout - 1 dimensional method <a href="../04-CSSLayouts/flexbox.html" target="_blank" >Click Here</a>
-        <img src="img/FlexBoxIntro.png" alt="Flex Intro" width="100%" height="auto">
-        <img src="img/FlexBoxIntro2.png" alt="Flex Intro" width="100%" height="auto">
+        <div class="carousel-container carousel-container--4">
+          <img src="img/FlexBoxIntro.png" alt="Flex Intro" width="100%" height="auto" class="carousel-elements">
+          <img src="img/FlexBoxIntro2.png" alt="Flex Intro" width="100%" height="auto" class="carousel-elements">
+
+        </div>
       </li>
       <li>Grid Layout - 2 dimensional method <a href="../04-CSSLayouts/css-grid.html" target="_blank">Click Here</a>
-        <img src="img/GridIntro1.png" alt="Flex Intro" width="100%" height="auto">
-        <img src="img/GridIntro2.png" alt="Flex Intro" width="100%" height="auto">
-        <img src="img/GridIntro3.png" alt="Flex Intro" width="100%" height="auto">
-        <img src="img/GridIntro4.png" alt="Flex Intro" width="100%" height="auto">
+        <div class="carousel-container carousel-container--5">
+          <img src="img/GridIntro1.png" alt="Flex Intro" width="100%" height="auto" class="carousel-elements">
+          <img src="img/GridIntro2.png" alt="Flex Intro" width="100%" height="auto" class="carousel-elements">
+          <img src="img/GridIntro3.png" alt="Flex Intro" width="100%" height="auto" class="carousel-elements">
+          <img src="img/GridIntro4.png" alt="Flex Intro" width="100%" height="auto" class="carousel-elements">
+        </div>
       </li>
     </ul>
     
     <strong>Web design rules and Framework</strong> <a href="../05-Design/webDesignBasicRules.html" target="_blank">Click here</a>
     <ul>
-      <li>Overview of web design rules and web design frameworks        
-        <img src="img/overview_webdesign_1.png" alt="Flex Intro" width="100%" height="auto">
-        <img src="img/overview_webdesign_1.1.png" alt="Flex Intro" width="100%" height="auto">
-        <img src="img/overview_webdesign_2.png" alt="Flex Intro" width="100%" height="auto">
-        <img src="img/overview_webdesign_3.png" alt="Flex Intro" width="100%" height="auto">
+      <li>Overview of web design rules and web design frameworks    
+        <div class="carousel-container carousel-container--6">
+
+        <img src="img/overview_webdesign_1.png" alt="Flex Intro" width="100%" height="auto" class="carousel-elements">
+        <img src="img/overview_webdesign_1.1.png" alt="Flex Intro" width="100%" height="auto" class="carousel-elements">
+        <img src="img/overview_webdesign_2.png" alt="Flex Intro" width="100%" height="auto" class="carousel-elements">
+        <img src="img/overview_webdesign_3.png" alt="Flex Intro" width="100%" height="auto" class="carousel-elements">
+        </div>
       </li>
     </ul>
 
@@ -136,11 +107,60 @@
       <li>App Layout <a href="../06-Components/06-appLayout.html" target="_blank" rel="noopener noreferrer">Click Here</a></li>
     </ul>
 
-
     <strong>Steps to build Good websites</strong> <a href="../07-WebsiteRules/wesbiteRules.html" target="_blank" rel="noopener noreferrer">Click Here</a>
     <br>
     <br>
     <strong>Final Webiste</strong> <a href="../08-Omnifood-Desktop/index.html" target="_blank"> Click Here</a>
+    <br>
+    <br>
+
+    <strong>Important Video links</strong>
+    <ol>
+      <li>Video 29 - Chrome Dev Tools</li>
+      <li>Video 30 - CSS Theory 1 - Conflcits between selectors
+        <img src="img/OrderofPrecedence.png" alt="OrderofPrecedence" width="100%" height="auto">
+      </li>
+      <li>Video 31 - CSS Theory 2 - Inheritnace and universal selectors
+        <img src="img/Inheritance.png" alt="Inheritance" width="100%" height="auto">
+      </li>
+      <li>Video 33 - CSS Theory 3 - Box Models
+        <img src="img/BoxModel.png" alt="BoxModel" width="100%" height="auto">
+      </li>
+      <li>Video 38 - CSS Theory 4 - Types of Boxes
+        <img src="img/TypesofBoxes.png" alt="TypesofBoxes" width="100%" height="auto">
+      </li>
+      <li>Video 39 - CSS Theory 5 - Absolute Positioning
+        <img src="img/AbsolutePositioning.png" alt="AbsolutePositioning" width="100%" height="auto">
+      </li>
+      <li>Video 67 - Overview of web design and website peroanlities</li>
+      <li>Video 69 - Typography Basics</li>
+      <li>Video 90 - Vertically Center using Absolute Positioning
+        <div class="carousel-container carousel-container--1">
+          <img src="img/AbsolutePostioningVerticalCenter1.png" alt="AbsolutePositioning" width="100%" height="auto" class="carousel-elements">
+          <img src="img/AbsolutePositioningVerticalCenter2.png" alt="AbsolutePositioning" width="100%" height="auto" class="carousel-elements">
+        </div>
+        <div class="carousel-container carousel-container--2">
+          <img src="img/AbsolutePostioningVerticalCenter1.png" alt="AbsolutePositioning" width="100%" height="auto" class="carousel-elements">
+          <img src="img/AbsolutePositioningVerticalCenter2.png" alt="AbsolutePositioning" width="100%" height="auto" class="carousel-elements">
+        </div>
+      </li>
+      <li>Video 104 - Responsive Design Principles 
+        <div class="carousel-container carousel-container--3">
+          <img src="img/ResponsiveDesign1.png" alt="ResponsiveDesignPrinciples" width="100%" height="auto" class="carousel-elements">
+          <img src="img/ResponsiveDesign2.png" alt="ResponsiveDesignPrinciples" width="100%" height="auto" class="carousel-elements">
+          <img src="img/ResponsiveDesign3.png" alt="ResponsiveDesignPrinciples" width="100%" height="auto" class="carousel-elements">
+
+        </div>
+      </li>
+      <li>Video 105 - max-width and Rem (Root element)
+        <img src="img/RemAndMaxWidth.png" alt="" width="100%" height="auto">
+      </li>
+      <li>Video 130 - Rules for Responsive design
+        <img src="img/ResponsiveDesign4.png" alt="" width="100%" height="auto" /> 
+      </li>
+
+    </ol>
+
   </body>
 </html>
   
